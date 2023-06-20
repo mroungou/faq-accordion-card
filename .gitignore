@@ -10,9 +10,11 @@
 #######################################################
 *.xd
 *.fig
-style-guide
+style-guide.md
 design
-README-template
+README-template.md
+README.md
+
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store

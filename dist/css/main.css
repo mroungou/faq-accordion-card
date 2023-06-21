@@ -1,0 +1,54 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background-repeat: no-repeat;
+}
+
+main {
+  padding: 12rem 0 3rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.faq {
+  position: relative;
+  margin: 0 1rem;
+  padding: 2rem 1rem 1rem;
+  border-radius: 20px;
+  background-color: white;
+}
+.faq .woman {
+  position: absolute;
+  top: -119px;
+  left: 32px;
+  right: 28px;
+}
+.faq .pattern {
+  position: relative;
+  top: -25px;
+  left: 31px;
+}
+.faq .concern {
+  font-size: 12px;
+}
+.faq .concern .section {
+  display: flex;
+}
+.faq .concern .section .question {
+  font-weight: 400;
+  color: hsl(240, 6%, 50%);
+}
+.faq .concern .section img {
+  margin-left: auto;
+}/*# sourceMappingURL=main.css.map */

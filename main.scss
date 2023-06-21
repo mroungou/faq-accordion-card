@@ -1,0 +1,75 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+// colors - text
+
+$veryDarkDesaturatedBlue: hsl(238,29%, 16%);
+$softRed: hsl(14,88%,65%);
+
+// background gradients
+
+$softViolet: hsl(273, 75%, 66%);
+$softBlue: hsl(240, 73%, 65%);
+
+// neutral - text 
+
+$veryDarkGrayishBlue: hsl(237, 12%, 33%);
+$darkGrayishBlue: hsl(240, 6%, 50%);
+
+$lightGrayishBlue: hsl(240, 5%, 91%);
+
+body {
+    // height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: linear-gradient($softViolet, $softBlue);
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 12rem 0 3rem;
+    // height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.faq {
+    position: relative;
+    margin: 0 1rem;
+    padding: 2rem 1rem 1rem;
+    border-radius: 20px;
+    background-color: white;
+    
+    .woman {
+        position: absolute;
+        top: -119px;
+        left: 32px;
+        right: 28px;
+    }
+
+    .pattern {
+        position: relative;
+        top: -25px;
+        left: 31px;
+        // right: ;
+    }
+
+    .concern {
+        font-size: 12px;
+        .section {
+            display: flex;
+            .question {
+                font-weight: 400;
+                color: $darkGrayishBlue;
+                // display: inline-block;
+            }
+    
+            img {
+                margin-left: auto;
+            }
+        }
+        }
+}
+

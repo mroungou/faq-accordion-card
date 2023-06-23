@@ -38,7 +38,7 @@ h1 {
 .faq {
     position: relative;
     margin: 0 1rem;
-    padding: 2rem 1rem 1rem;
+    padding: 2rem 1rem 3rem;
     border-radius: 20px;
     background-color: white;
     
@@ -58,6 +58,8 @@ h1 {
 
     .concern {
         font-size: 12px;
+        border-bottom: 2px solid $lightGrayishBlue;
+        overflow: hidden;
         .section {
             display: flex;
             .question {
@@ -65,11 +67,30 @@ h1 {
                 color: $darkGrayishBlue;
                 // display: inline-block;
             }
-    
+
+            
             img {
                 margin-left: auto;
+                align-self: center;
             }
         }
+        
+        .answer {
+            display: none;
         }
+
+    }
 }
 
+.expanded {
+    .question {
+        font-weight: 700 !important;
+        color: $veryDarkDesaturatedBlue !important;
+    }
+    .answer {
+        display: block !important;
+    }
+    img {
+        transform: rotate(180deg);
+    }
+}

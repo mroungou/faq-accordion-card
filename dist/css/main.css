@@ -24,7 +24,7 @@ h1 {
 .faq {
   position: relative;
   margin: 0 1rem;
-  padding: 2rem 1rem 1rem;
+  padding: 2rem 1rem 3rem;
   border-radius: 20px;
   background-color: white;
 }
@@ -41,6 +41,8 @@ h1 {
 }
 .faq .concern {
   font-size: 12px;
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+  overflow: hidden;
 }
 .faq .concern .section {
   display: flex;
@@ -51,4 +53,19 @@ h1 {
 }
 .faq .concern .section img {
   margin-left: auto;
+  align-self: center;
+}
+.faq .concern .answer {
+  display: none;
+}
+
+.expanded .question {
+  font-weight: 700 !important;
+  color: hsl(238, 29%, 16%) !important;
+}
+.expanded .answer {
+  display: block !important;
+}
+.expanded img {
+  transform: rotate(180deg);
 }/*# sourceMappingURL=main.css.map */

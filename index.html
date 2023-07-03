@@ -7,17 +7,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./dist/css/main.css">
+  <script src="./index.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 </head>
 <body>
   <main>
-  <div class="faq">
+  <div class="faq" id="faq">
       <img src="./images/illustration-woman-online-mobile.svg" class="woman mobile" alt="">
       <img src="./images/bg-pattern-mobile.svg" class="pattern mobile" alt="">
       <h1>FAQ</h1>
-      <div class="concern team">
+      <div class="concern team" id="team">
         <div class="section">
           <p class="question">How many team members can I invite?</p>
           <img src="./images/icon-arrow-down.svg" alt="">
@@ -27,14 +28,14 @@
           team members for the Premium plan.
         </p>
       </div>
-      <div class="concern size">
+      <div class="concern size" id="size">
         <div class="section">
           <p class="question">What is the maximum file upload size?</p>
           <img src="./images/icon-arrow-down.svg" alt="">
         </div>
         <p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
       </div>
-      <div class="concern password">
+      <div class="concern password" id="password">
         <div class="section">
           <p class="question">How do I reset my password?</p>
           <img src="./images/icon-arrow-down.svg" alt="">
@@ -44,14 +45,14 @@
           A reset link will be emailed to you.
         </p>
       </div>
-      <div class="concern subscription">
+      <div class="concern subscription" id="subscription">
         <div class="section">
           <p class="question">Can I cancel my subscription?</p>
           <img src="./images/icon-arrow-down.svg" alt="">
         </div>
         <p class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
       </div>
-      <div class="concern support">
+      <div class="concern support" id="support">
         <div class="section">
           <p class="question">Do you provide additional support?</p>
           <img src="./images/icon-arrow-down.svg" alt="">

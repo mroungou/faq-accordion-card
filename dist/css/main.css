@@ -34,6 +34,9 @@ h1 {
   left: 32px;
   right: 28px;
 }
+.faq .desktop {
+  visibility: hidden;
+}
 .faq .pattern {
   position: relative;
   top: -25px;
@@ -68,4 +71,10 @@ h1 {
 }
 .expanded img {
   transform: rotate(180deg);
+}
+
+@media screen and (min-width: 1440px) {
+  .faq .mobile {
+    visibility: hidden;
+  }
 }/*# sourceMappingURL=main.css.map */

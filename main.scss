@@ -49,6 +49,10 @@ h1 {
         right: 28px;
     }
 
+    .desktop {
+        visibility: hidden;
+    }
+
     .pattern {
         position: relative;
         top: -25px;
@@ -92,5 +96,13 @@ h1 {
     }
     img {
         transform: rotate(180deg);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .faq {
+        .mobile {
+            visibility: hidden;
+        }
     }
 }

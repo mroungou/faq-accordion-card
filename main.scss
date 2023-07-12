@@ -50,7 +50,7 @@ h1 {
     }
 
     .desktop {
-        visibility: hidden;
+        display: none;
     }
 
     .pattern {
@@ -100,9 +100,50 @@ h1 {
 }
 
 @media screen and (min-width: 1440px) {
+
+    main {
+        padding-right: 17rem;
+        padding-left: 17rem;
+        padding-bottom: 13.75rem;
+        padding-top: 13.75rem;
+    }
     .faq {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .content {
+            padding: 0 2.5rem;
+        }
+        .concern .question:hover {
+            cursor: pointer;
+            color: $softRed;
+        }
+        .images {
+            position: relative;
+        }
+        .woman1 {
+            position: absolute;
+            top: 15px;
+            left: -108px;
+        }
+
+        .box1 {
+            position: absolute;
+            top: 148px;
+            left: -159px;
+        }
+
+        .content {
+            h1 {
+                text-align: left;
+            }
+        }
+        .desktop {
+            display: inline;
+            margin: 0 !important;
+        }
+
         .mobile {
-            visibility: hidden;
+            display: none;
         }
     }
 }

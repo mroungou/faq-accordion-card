@@ -35,7 +35,7 @@ h1 {
   right: 28px;
 }
 .faq .desktop {
-  visibility: hidden;
+  display: none;
 }
 .faq .pattern {
   position: relative;
@@ -74,7 +74,44 @@ h1 {
 }
 
 @media screen and (min-width: 1440px) {
+  main {
+    padding-right: 17rem;
+    padding-left: 17rem;
+    padding-bottom: 13.75rem;
+    padding-top: 13.75rem;
+  }
+  .faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .faq .content {
+    padding: 0 2.5rem;
+  }
+  .faq .concern .question:hover {
+    cursor: pointer;
+    color: hsl(14, 88%, 65%);
+  }
+  .faq .images {
+    position: relative;
+  }
+  .faq .woman1 {
+    position: absolute;
+    top: 15px;
+    left: -108px;
+  }
+  .faq .box1 {
+    position: absolute;
+    top: 148px;
+    left: -159px;
+  }
+  .faq .content h1 {
+    text-align: left;
+  }
+  .faq .desktop {
+    display: inline;
+    margin: 0 !important;
+  }
   .faq .mobile {
-    visibility: hidden;
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
